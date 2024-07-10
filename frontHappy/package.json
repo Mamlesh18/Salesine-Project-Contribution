@@ -16,8 +16,10 @@
     "chart.js": "^3.9.1",
     "chartjs": "^0.3.24",
     "chokidar": "^3.5.3",
+    "express": "^4.19.2",
     "faker": "^6.6.6",
     "moment": "^2.29.4",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.0",
     "react-chartjs-2": "^4.3.1",
@@ -27,7 +29,7 @@
     "react-minimal-pie-chart": "^8.3.0",
     "react-player": "^2.10.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-wavesurfer.js": "^0.0.8",
     "wavesurfer-react": "^2.2.2",
     "wavesurfer.js": "^6.3.0",
@@ -37,7 +39,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "node server.js"
+
   },
   "eslintConfig": {
     "extends": [
